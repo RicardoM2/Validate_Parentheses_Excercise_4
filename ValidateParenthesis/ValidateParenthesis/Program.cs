@@ -8,6 +8,7 @@ namespace ValidateParenthesis
         static void Main(string[] args)
         {
             ValidParentheses validParentheses = new ValidParentheses();
+
        
             Console.WriteLine(validParentheses.IsValidReview("(Hello world)")); // true
             Console.WriteLine(validParentheses.IsValidReview("()[]{}")); // true
